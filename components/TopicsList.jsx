@@ -22,7 +22,7 @@ const getTopics = async () => {
 };
 
 export default async function TopicsList() {
-  const { topics } = await getTopics();
+  const { topics } = await getTopics(); 
 
   return (
     <div className="mt-20">
